@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="HeightConversionTool:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6765420-3ef7-4fc7-8f24-2efe41e85559" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HeightConversionTool.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Height/Converter/HeightConverter.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Height/Converter/HeightConverter.java" afterDir="false" />
+    <list default="true" id="c6765420-3ef7-4fc7-8f24-2efe41e85559" name="Changes" comment="Initial version of Height Converter Tool with finished user GUI">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HeightConversionTool_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Height/Converter/HeightConverter.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Height/Converter/HeightConverter.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Height/Converter/HeightConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Height/Converter/HeightConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +47,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "417",
-    "jdk.selected.JAVA_MODULE": "1.8"
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "392",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/micek.m/IdeaProjects/MyProjects/HeightConversionTool/out/artifacts/HeightConversionTool_jar/HeightConversionTool.jar",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.Jar Config">
     <configuration name="HeightConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Height.Converter.HeightConverter" />
       <module name="HeightConversionTool" />
@@ -64,6 +70,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Jar Config" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/HeightConversionTool_jar/HeightConversionTool.jar" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\micek.m\IdeaProjects\MyProjects\HeightConversionTool" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="HeightConversionTool:jar" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HeightConverter" />
+      <item itemvalue="JAR Application.Jar Config" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HeightConverter" />
@@ -79,6 +99,29 @@
       <option name="presentableId" value="Default" />
       <updated>1673440791866</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial version of Height Converter Tool with finished user GUI">
+      <created>1673537307896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673537307896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial version of Height Converter Tool with finished user GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial version of Height Converter Tool with finished user GUI" />
   </component>
 </project>
